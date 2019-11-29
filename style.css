@@ -1,0 +1,1086 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
+
+body {
+  font-family: 'Lato', sans-serif;
+  overflow-x: hidden;
+  color:#505962;
+}
+
+.btn {
+  border-width: medium;
+  border-radius: 0;
+  font-size:1rem;
+  padding: .6rem 1.2rem;
+  margin: 1rem;
+  color: #505962;
+  border-color:#505962;
+}
+
+.btn:hover {
+  background-color:#79bd8f;
+  border-color:#79bd8f;
+  color: white;
+}
+
+.more-button {
+  display: none;
+}
+
+/* nav section  */
+/* .navber {
+  width: 100%;
+} */
+
+.navbar-dark .navbar-toggler {
+  border-color:rgba(0,0,0,0);
+}
+.navbar-nav li {
+  padding-right: 1rem;
+}
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #79bd8f;
+}
+/* home section  */
+.home-inner {
+  background-image: url(img/home.png);
+}
+.caption{
+  color: #fff;
+  position: absolute;
+  top: 40%;
+  z-index:1;
+  letter-spacing: 1.4rem;
+  width: 100%;
+  max-width: 100%;
+}
+.caption h1 {
+  font-size:3.8rem;
+  font-weight: 700;
+  letter-spacing: 1.2rem;
+  text-shadow: .1rem .1rem .8rem black;
+  padding-bottom: 1rem;
+  margin: 1.5rem 0;
+}
+.caption h3  {
+  font-size:2rem;
+  text-shadow: .1rem .1rem .5rem black;
+  padding-bottom: 1.6rem;
+}
+/* .fa-angle-double-down {
+  margin-top: 5rem;
+  font-size:2.5rem;
+  text-shadow: .1rem .1rem .5rem black;
+  color: white;
+}
+.fa-angle-double-down:hover {
+  color: #79bd8f;
+} */
+/* profile section  */
+.profile-underline {
+  background-color: #79bd8f;
+  width: 7rem;
+  height: .2rem;
+  margin: 0 auto 1rem;
+}
+.profile-img {
+  border-radius: 50%;
+}
+
+.fa-twitter , .fa-instagram {
+  color: #79bd8f;
+}
+
+.jumbotron .fa-twitter:hover {
+  font-size:2rem;
+  transition: all 0.3s;
+  opacity: 0.5;
+  color: #000;
+}
+
+.jumbotron .fa-instagram:hover {
+  font-size:2rem;
+  transition: all 0.3s;
+  opacity: 0.5;
+  color: #000;
+}
+
+.carousel {
+  margin: 0 auto;
+}
+
+.skill-container {
+  display: flex;
+  justify-content: center;
+}
+
+.skill-html {
+  width: 33%;
+}
+
+.skill-html .p1 {
+  font-size: 18px;
+  margin-top: 40px;
+}
+
+.skill-html .p2 {
+  font-size: 18px;
+  margin-top: 40px;
+}
+
+.skill-html .p3 {
+  font-size: 18px;
+margin-top: 40px;}
+
+.skill-html .fa-code{
+  font-size:80px;
+  /* margin-right: 100px;
+  margin-bottom: 20px; */
+  color: #79bd8f;
+}
+
+.skill-html .fa-css3{
+  font-size:80px;
+  /* margin-right: 130px; */
+  /* margin-top: 20px;
+  margin-bottom: 20px; */
+  color: #79bd8f;
+}
+
+.skill-html .fa-bold{
+  font-size:80px;
+  /* margin-right:50px;
+  margin-top: 20px;
+  margin-bottom: 20px; */
+  color: #79bd8f;
+}
+
+/* .contact-title {
+  margin-top: 80px;
+} */
+
+#contact {
+  margin: 80px 0;
+}
+
+.contact {
+  display: flex;
+  justify-content: space-around;
+}
+
+.contact-phone {
+  width: 33%;
+  margin-left: 180px;
+}
+
+.contact-mail{
+  width: 33%;
+  margin-right: 180px;
+}
+
+#contact-name {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  width: 50%;
+}
+
+#contact-mail {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  width: 50%;
+}
+
+
+textarea {
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  height: 80px;
+}
+
+footer .fa-twitter {
+  color: #505962;
+}
+
+footer .fa-twitter:hover {
+  opacity: 0.5;
+  color: #000;
+  transition: all 0.5s;
+}
+
+
+footer .fa-instagram{
+  color: #505962;
+
+}
+
+footer .fa-instagram:hover {
+  opacity: 0.5;
+  color: #000;
+  transition: all 0.5s;
+}
+
+
+/* ギャラリー1 */
+.girlfriend {
+  display: flex;
+  justify-content: center;
+  margin: 150px 150px 70px 150px;
+}
+
+.access {
+  display: block;
+  color:#505962;
+  text-decoration: none;
+  margin-top: 5px;
+  font-size: small;
+}
+
+.access:hover{
+  color: #79bd8f;
+  transition: all .3s;
+  text-decoration: none;
+}
+
+.girlfriend .profile-img {
+  width: 250px;
+}
+
+.girlfriend .profile-img:hover {
+  opacity: 0.6;
+  transition: all 0.3s;
+}
+
+.girlfriend .lead {
+  font-size: 12px;
+
+}
+
+.g-photo-left {
+  width: 20%;
+}
+
+.g-photo-right {
+  width: 80%;
+  margin-top: 40px; 
+}
+
+
+/* ギャラリー２ */
+.cauple {
+  display: flex;
+  justify-content: center;
+  margin: 150px 150px 70px 150px;
+}
+
+.access {
+  display: block;
+  color:#505962;
+  text-decoration: none;
+  margin-top: 5px;
+  font-size: small;
+}
+
+.access:hover{
+  color: #79bd8f;
+  transition: all .3s;
+  text-decoration: none;
+}
+
+.cauple .profile-img {
+  width: 250px;
+}
+
+.cauple .profile-img:hover {
+  opacity: 0.6;
+  transition: all 0.3s;
+}
+
+.cauple .lead {
+  font-size: 12px;
+
+}
+
+.c-photo-left {
+  width: 20%;
+}
+
+.c-photo-right {
+  width: 80%;
+  margin-top: 40px; 
+}
+
+/* ギャラリー３ */
+.snap {
+  display: flex;
+  justify-content: center;
+  margin: 150px 150px 70px 150px;
+}
+
+.access {
+  display: block;
+  color:#505962;
+  text-decoration: none;
+  margin-top: 5px;
+  font-size: small;
+}
+
+.access:hover{
+  color: #79bd8f;
+  transition: all .3s;
+  text-decoration: none;
+}
+
+
+.snap .profile-img {
+  width: 250px;
+}
+
+.snap .profile-img:hover {
+  opacity: 0.6;
+  transition: all 0.3s;
+}
+
+.snap .lead {
+  font-size: 12px;
+
+}
+
+.s-photo-left {
+  width: 20%;
+}
+
+.s-photo-right {
+  width: 80%;
+  margin-top: 40px; 
+}
+
+
+
+@media(max-width:576px) {
+
+  .caption h3  {
+    font-size: 18px;
+  }
+
+  .caption h1 {
+    font-size: 23px;
+  }
+
+  #profile h3 {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+
+  #profile img {
+    width: 50%;
+    margin-top: 20px;
+  }
+
+  #profile .myname {
+    font-size: 14px;
+
+  }
+
+  #profile .fa-twitter ,
+  #profile .fa-instagram{
+    margin: 0 auto;
+  }
+
+  .profile {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  #hobby h3 {
+    font-size: 20px;
+    margin-top: -30px;
+  }
+
+  .hobby {
+    font-size: 14px;
+    width: 75%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+
+  .more-button {
+    display: block;
+  } 
+
+  .skill-title h3 {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+
+  .skill-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .skill-html {
+    width: 100%;
+    
+  }
+
+  .skill-html .fa-code{
+    font-size:40px;
+    color: #79bd8f;
+
+   
+  }
+  
+  .skill-html .fa-css3{
+    font-size:40px;
+    color: #79bd8f;
+    margin-top: 20px;
+ 
+  }
+  
+  .skill-html .fa-bold{
+    font-size:40px;
+    color: #79bd8f;
+    margin-top: 20px;
+ 
+  }
+
+  .skills .p1  {
+   
+  }
+  
+  .skills .p2 ,
+  .skills .p3 {
+   
+  }
+
+  .contact-title h3 {
+    font-size: 20px;
+  }
+
+  .fa-mobile-alt ,
+  .fa-envelope {
+    font-size: 40px;
+  }
+ 
+  .contact-mail ,
+  .contact-phone {
+    margin: 0;
+  }
+
+  .contact {
+    width: 75%;
+    margin: 0 auto;
+  }
+
+  .contact-mail p ,
+  .contact-phone p  {
+    font-size: 12px;
+  }
+
+  .mt-5 p {
+    font-size: 12px;
+  }
+
+  .girlfriend {
+    display: block;
+    margin:70px;
+    width: 100%;
+  }
+  
+  .accesss {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    margin-left: 10px;
+  }
+
+  .access {
+    color:#505962;
+    text-decoration: none;
+    margin-top: 5px;
+    font-size: small;
+    width: 75%;
+  }
+
+  .g-photo-left h3 {
+    font-size: 20px;
+    margin-left: 20px;
+    font-weight: normal;
+  }
+
+  .girlfriend .profile-img {
+    width: 150px;
+  }
+
+  .girlfriend .lead {
+    font-size: 12px;
+  }
+  
+  .g-photo-left {
+    width: 75%;
+  }
+
+  .g-photo-left .lead {
+    text-align: center;
+  }
+  
+  .g-photo-right {
+    width: 80%;
+    margin-top: 40px; 
+  }
+  
+
+  .cauple {
+    display: block;
+    margin:70px;
+    width: 100%;
+  }
+  
+  .accesss {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    margin-left: 10px;
+  }
+
+  .access {
+    color:#505962;
+    text-decoration: none;
+    margin-top: 5px;
+    font-size: small;
+    width: 75%;
+  }
+
+  .c-photo-left h3 {
+    font-size: 20px;
+    margin-left: 20px;
+    font-weight: normal;
+  }
+
+  .cauple .profile-img {
+    width: 150px;
+  }
+
+  .cauple .lead {
+    font-size: 12px;
+  }
+  
+  .c-photo-left {
+    width: 75%;
+  }
+
+  .c-photo-left .lead {
+    text-align: center;
+  }
+  
+  .c-photo-right {
+    width: 80%;
+    margin-top: 40px; 
+  }
+
+
+  .snap {
+    display: block;
+    margin:70px;
+    width: 100%;
+  }
+  
+  .accesss {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    margin-left: 10px;
+  }
+
+  .access {
+    color:#505962;
+    text-decoration: none;
+    margin-top: 5px;
+    font-size: small;
+    width: 75%;
+  }
+
+  .s-photo-left h3 {
+    font-size: 20px;
+    margin-left: 20px;
+    font-weight: normal;
+  }
+
+  .snap .profile-img {
+    width: 150px;
+  }
+
+  .snap .lead {
+    font-size: 12px;
+  }
+  
+  .s-photo-left {
+    width: 75%;
+  }
+
+  .s-photo-left .lead {
+    text-align: center;
+  }
+  
+  .s-photo-right {
+    width: 80%;
+    margin-top: 40px; 
+  }
+
+}
+
+@media(max-width:768px) {
+  .caption h1 {
+    font-size: 35px;
+  }
+
+  #profile img {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  #profile .myname {
+    font-size: 18px;
+  }
+
+  #profile .fa-twitter ,
+  #profile .fa-instagram{
+    margin: 0 auto;
+  }
+
+  .profile {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .hobby {
+    font-size: 16.5px;
+    width: 75%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+
+  .more-button {
+    display: block;
+  } 
+
+
+  .skill-title h3 {
+
+    margin-top: 20px;
+  }
+
+  .skill-html {
+    width: 75%;
+    margin: 0 auto;
+  }
+
+  .skill-html .fa-code{
+    font-size:40px;
+    color: #79bd8f;
+ 
+    
+  }
+  
+  .skill-html .fa-css3{
+    font-size:40px;
+    color: #79bd8f;
+  
+  }
+  
+  .skill-html .fa-bold{
+    font-size:40px;
+    color: #79bd8f;
+
+  }
+
+  .skills .p1  {
+    font-size: 14px;
+    line-height: 50px;
+  }
+  
+  .skills .p2 ,
+  .skills .p3 {
+    font-size: 14px;
+    line-height: 70px;
+  }
+
+  .contact-mail p ,
+  .contact-phone p  {
+    font-size: 12px;
+  }
+
+  .mt-5 p {
+    font-size: 12px;
+  }
+
+  .girlfriend {
+    display: block;
+    margin:70px;
+    width: 100%;
+  }
+  
+  .accesss {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    margin-left: 10px;
+  }
+
+  .access {
+    color:#505962;
+    text-decoration: none;
+    margin-top: 5px;
+    font-size: small;
+    width: 75%;
+  }
+
+  .g-photo-left h3 {
+    font-size: 20px;
+    margin-left: 20px;
+    font-weight: normal;
+  }
+
+  .girlfriend .profile-img {
+    width: 150px;
+  }
+
+  .girlfriend .lead {
+    font-size: 12px;
+  }
+  
+  .g-photo-left {
+    width: 75%;
+  }
+
+  .g-photo-left .lead {
+    text-align: center;
+  }
+  
+  .g-photo-right {
+    width: 80%;
+    margin-top: 40px; 
+  }
+  
+
+  .cauple {
+    display: block;
+    margin:70px;
+    width: 100%;
+  }
+  
+  .accesss {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    margin-left: 10px;
+  }
+
+  .access {
+    color:#505962;
+    text-decoration: none;
+    margin-top: 5px;
+    font-size: small;
+    width: 75%;
+  }
+
+  .c-photo-left h3 {
+    font-size: 20px;
+    margin-left: 20px;
+    font-weight: normal;
+  }
+
+  .cauple .profile-img {
+    width: 150px;
+  }
+
+  .cauple .lead {
+    font-size: 12px;
+  }
+  
+  .c-photo-left {
+    width: 75%;
+  }
+
+  .c-photo-left .lead {
+    text-align: center;
+  }
+  
+  .c-photo-right {
+    width: 80%;
+    margin-top: 40px; 
+  }
+
+
+  .snap {
+    display: block;
+    margin:70px;
+    width: 100%;
+  }
+  
+  .accesss {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    margin-left: 10px;
+  }
+
+  .access {
+    color:#505962;
+    text-decoration: none;
+    margin-top: 5px;
+    font-size: small;
+    width: 75%;
+  }
+
+  .s-photo-left h3 {
+    font-size: 20px;
+    margin-left: 20px;
+    font-weight: normal;
+  }
+
+  .snap .profile-img {
+    width: 150px;
+  }
+
+  .snap .lead {
+    font-size: 12px;
+  }
+  
+  .s-photo-left {
+    width: 75%;
+  }
+
+  .s-photo-left .lead {
+    text-align: center;
+  }
+  
+  .s-photo-right {
+    width: 80%;
+    margin-top: 40px; 
+  }
+
+}
+
+
+
+@media(max-width:992px) {
+  .skill-html {
+    width: 75%;
+    margin: 0 auto;
+  }
+
+  .skill-html .fa-code{
+    font-size:50px;
+    color: #79bd8f;
+  
+  }
+  
+  .skill-html .fa-css3{
+    font-size:50px;
+    color: #79bd8f;
+   
+  }
+  
+  .skill-html .fa-bold{
+    font-size:50px;
+    color: #79bd8f;
+
+  }
+
+  .skills .p1  {
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 30px;
+  }
+  
+  .skills .p2 ,
+  .skills .p3 {
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 30px;
+  }
+
+  .contact-mail p ,
+  .contact-phone p  {
+    font-size: 12px;
+  }
+
+  
+  .more-button {
+    display: block;
+  } 
+
+  .girlfriend {
+    display: block;
+    margin:70px;
+    width: 100%;
+  }
+  
+  .accesss {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    margin-left: 10px;
+  }
+
+  .access {
+    color:#505962;
+    text-decoration: none;
+    margin-top: 5px;
+    font-size: small;
+    width: 75%;
+  }
+
+  .g-photo-left h3 {
+    font-size: 20px;
+    margin-left: 20px;
+    font-weight: normal;
+  }
+
+  .girlfriend .profile-img {
+    width: 150px;
+  }
+
+  .girlfriend .lead {
+    font-size: 12px;
+  }
+  
+  .g-photo-left {
+    width: 75%;
+  }
+
+  .g-photo-left .lead {
+    text-align: center;
+  }
+  
+  .g-photo-right {
+    width: 80%;
+    margin-top: 40px; 
+  }
+  
+
+  .cauple {
+    display: block;
+    margin:70px;
+    width: 100%;
+  }
+  
+  .accesss {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    margin-left: 10px;
+  }
+
+  .access {
+    color:#505962;
+    text-decoration: none;
+    margin-top: 5px;
+    font-size: small;
+    width: 75%;
+  }
+
+  .c-photo-left h3 {
+    font-size: 20px;
+    margin-left: 20px;
+    font-weight: normal;
+  }
+
+  .cauple .profile-img {
+    width: 150px;
+  }
+
+  .cauple .lead {
+    font-size: 12px;
+  }
+  
+  .c-photo-left {
+    width: 75%;
+  }
+
+  .c-photo-left .lead {
+    text-align: center;
+  }
+  
+  .c-photo-right {
+    width: 80%;
+    margin-top: 40px; 
+  }
+
+
+  .snap {
+    display: block;
+    margin:70px;
+    width: 100%;
+  }
+  
+  .accesss {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    margin-left: 10px;
+  }
+
+  .access {
+    color:#505962;
+    text-decoration: none;
+    margin-top: 5px;
+    font-size: small;
+    width: 75%;
+  }
+
+  .s-photo-left h3 {
+    font-size: 20px;
+    margin-left: 20px;
+    font-weight: normal;
+  }
+
+  .snap .profile-img {
+    width: 150px;
+  }
+
+  .snap .lead {
+    font-size: 12px;
+  }
+  
+  .s-photo-left {
+    width: 75%;
+  }
+
+  .s-photo-left .lead {
+    text-align: center;
+  }
+  
+  .s-photo-right {
+    width: 80%;
+    margin-top: 40px; 
+  }
+}
+
+
+
+
+
+/* hobby section  */
+
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
